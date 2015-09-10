@@ -31,8 +31,8 @@ Each line of the file consists of a SCOPe domain identifier (v. 2.01) and an ann
  - D[x] Dihedral symmetry, with an x-fold major axis and 2x repeats
  - H[x] Helical symmetry with x repeats per revolution
  - NIH  Non-integer helical repeats
- - SH   Superhelical repeats
- - R    Other translational repeats
+ - SH   Superhelical repeats: two or more helices coiled
+ - R[x] Other repeats with conserved transformation, number x
 
 
 Changelog
