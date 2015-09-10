@@ -26,13 +26,13 @@ repeats, primarily internal symmetry.
 The Myers-Turnbull benchmark is contained in file `domain_symm_benchmark.tsv`. The original file can be accessed from the symmetry-benchmark-1.0.0 tag, and can be used to exactly duplicate the results from the paper (together with the [CE-Symm 1.0.0 Release](https://github.com/rcsb/symmetry/releases)). Later releases reflect changes in the PDB (e.g. obsolete entries) or the discovery of mistakes in the manual curation (e.g. overlooked translational repeats).
 
 Each line of the file consists of a SCOPe domain identifier (v. 2.01) and an annotation of the symmetry. Abbreviations used:
- - C1   Asymmetric
- - C[x] Rotational symmetry, order x
- - D[x] Dihedral symmetry, with an x-fold major axis and 2x repeats
- - H[x] Helical symmetry with x repeats per revolution
- - NIH  Non-integer helical repeats
- - SH   Superhelical repeats: two or more helices coiled
- - R[x] Other repeats with conserved transformation, number x
+ - **C1**   Asymmetric
+ - **C[x]** Rotational symmetry, requires a single rotation matrix, order x
+ - **D[x]** Dihedral symmetry, requires two rotation matrices, with an x-fold major axis and 2x repeats
+ - **H[x]** Helical symmetry with x repeats per revolution, requires a single matrix with rotation and translation
+ - **NIH**  Non-integer helical repeats, requires a single matrix with rotation and translation
+ - **SH**   Superhelical repeats: two or more helices coiled, require two matrices with rotation and translation (one for the superhelix and one for the helices).
+ - **R[x]** Other repeats with any conserved transformation, x number of repeats
 
 
 Changelog
