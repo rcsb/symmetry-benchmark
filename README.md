@@ -27,13 +27,23 @@ The Myers-Turnbull benchmark is contained in file `domain_symm_benchmark.tsv`. T
 
 Each line of the file consists of a SCOPe domain identifier (v. 2.01) and an annotation of the symmetry. Abbreviations used:
  - **C1**   Asymmetric
- - **C[x]** Rotational symmetry, requires a single rotation matrix, order x
- - **D[x]** Dihedral symmetry, requires two rotation matrices, with an x-fold major axis and 2x repeats
- - **H[x]** Helical symmetry with x repeats per revolution, requires a single matrix with rotation and translation
- - **NIH**  Non-integer helical repeats, requires a single matrix with rotation and translation
- - **SH**   Superhelical repeats: two or more helices coiled, require two matrices with rotation and translation (one for the superhelix and one for the helices).
- - **R[x]** Other repeats with any conserved transformation, x number of repeats
+ - **C[x]** Rotational symmetry, order x. The repeats should be arranged in a closed ring, with a reasonably consistent orientation between repeats. Specification of the superposition requires one axis, with a 2pi/x rotation.
+ - **D[x]** Dihedral symmetry, with an x-fold major axis and 2x repeats. An additional x two-fold rotation axes are arranged perpendicular to the major axis. Two axes are required to specify the superposition.
+ - **H[x]** Helical symmetry with x repeats per revolution. Helices with integer x arise commonly in crystalline environments. The superposition requires an axis for the 2pi/x rotation and a translation distance along this axis.
+ - **NIH**  Non-integer helical repeats. These give cases with a non-integer number of subunits per rotation. Superposition can involve an arbitrary transformation between subunits.
+ - **SH**   Superhelical repeats. Used for cases where multiple levels of helices are detectable. This is analogous to supercoiling in leucine zippers or DNA, but with a fundamental repeat of secondary structure elements rather than individual residues. The full superposition cannot be simply represented, as the orientation between adjacent repeats depends on their position in the higher-level helices. However, for some applications it may be sufficient to specify the axis of the top-level helix.
+ - **R[x]** Translational repeats without higher structure or symmetry, x repeats. 
 
+Classification guidelines
+-------------------------
+
+Many of the cases in the benchmark are difficult to classify or fall near the border of two categories. The following guidelines were used for difficult cases:
+
+ - Within repeats, the order of aligned elements should be the same. Don't consider cases where a strand or helix would superimpose well but with opposite direction (as sometimes occurs near the axis of symmetry between repeats).
+ - Clear cases of domain swapping are allowed, and both swapped and unswapped structures should be considered for classification.
+ - Ideally, the orientation between repeats should be consistent among all repeats. However, if repeats are still identifiable then count them even in the presence of large distortions. Controversial cases are tagged #distortion in the issues.
+ - The majority of the domain should be convered by repeats. The exact size and complexity of insertions should be evaluated on a case-by-case basis. Controversial cases with poor coverage are tagged #partial in the issues.
+ - Alpha helical bundles are particularly tricky, since they tend to superimpose well despite kinks and inconsistencies. Most bundles were marked as symmetric if they could be aligned with consistent topology.
 
 Changelog
 ---------
