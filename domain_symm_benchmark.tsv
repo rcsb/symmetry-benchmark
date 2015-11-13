@@ -606,7 +606,6 @@ d2iecd_	C1
 d2if1a_	C1
 d2ijra1	C1
 d2ioja1	C1
-d2iolb_	C1
 d2iubd1	C1
 d2ixpd_	C1
 d2iyja1	C1
@@ -1001,6 +1000,7 @@ d1v0fd2	NIH
 d2b1ea_	NIH
 d1qtea1	SH
 d2ajab1	SH
+d2iolb_	R3
 d3bsda_	R4
 d1blxb_	R5
 d1rmga_	R12
