@@ -16,7 +16,6 @@ d1b70a_	C1	1
 d1b79c_	C1	1
 d1bcmb1	C1	1
 d1be3f_	C1	1
-d1bg1a1	C1	1
 d1bhgb1	C1	1
 d1bk7a_	C1	1
 d1bouc_	C1	1
@@ -53,7 +52,6 @@ d1e3ha1	C1	1
 d1e6jp1	C1	1
 d1e8od_	C1	1
 d1e91a_	C1	1
-d1ea8a_	C1	1
 d1ed7a_	C1	1
 d1eiwa_	C1	1
 d1ejsa_	C1	1
@@ -104,6 +102,7 @@ d1hmja_	C1	1
 d1hn0a4	C1	1
 d1hnra_	C1	1
 d1hx6c1	C1	1
+d1hy5a_	C1	1
 d1i95b_	C1	1
 d1i9sa_	C1	1
 d1iazb_	C1	1
@@ -379,9 +378,7 @@ d1v0fd2	C1	1
 d1v2ba_	C1	1
 d1v5ra1	C1	1
 d1v65a_	C1	1
-d1v74b_	C1	1
 d1v8og_	C1	1
-d1v9va1	C1	1
 d1vaza_	C1	1
 d1vddc_	C1	1
 d1vhoa1	C1	1
@@ -534,7 +531,6 @@ d2fb5b_	C1	1
 d2fcca_	C1	1
 d2fdob_	C1	1
 d2fe0a1	C1	1
-d2fefc1	C1	1
 d2ffgb_	C1	1
 d2fhza1	C1	1
 d2fi9a1	C1	1
@@ -707,7 +703,6 @@ d3cxhs_	C1	1
 d3d1mb_	C1	1
 d3d5aj1	C1	1
 d3d5rc1	C1	1
-d3dbyh2	C1	1
 d3dkma_	C1	1
 d3dlda_	C1	1
 d3domd_	C1	1
@@ -777,7 +772,6 @@ d1ftra1	C2	2
 d1g7ta3	C2	2
 d1g8kc2	C2	2
 d1gh8a_	C2	2
-d1hy5a_	C2	2
 d1i96v_	C2	2
 d1ib8a2	C2	2
 d1ig3a1	C2	2
@@ -810,7 +804,6 @@ d1o75b1	C2	2
 d1o7ib_	C2	2
 d1o8bb2	C2	2
 d1o98a1	C2	2
-d1oedd_	C2	2
 d1or6b_	C2	2
 d1osya_	C2	2
 d1oy8a3	C2	2
@@ -835,7 +828,6 @@ d1txoa_	C2	2
 d1u2ca2	C2	2
 d1u84a_	C2	2
 d1u8ua_	C2	2
-d1ug7a_	C2	2
 d1utaa_	C2	2
 d1v1mb2	C2	2
 d1vaja1	C2	2
@@ -850,7 +842,6 @@ d1wcwa_	C2	2
 d1wj9a2	C2	2
 d1wokd1	C2	2
 d1wopa2	C2	2
-d1x91a_	C2	2
 d1x9ga_	C2	2
 d1x9na1	C2	2
 d1xb9a_	C2	2
@@ -865,7 +856,6 @@ d1zagd2	C2	2
 d1zsoa1	C2	2
 d2a1bf_	C2	2
 d2ahja_	C2	2
-d2ap3a1	C2	2
 d2au5a1	C2	2
 d2bjqa2	C2	2
 d2ccqa1	C2	2
@@ -879,9 +869,7 @@ d2exda1	C2	2
 d2f2ba_	C2	2
 d2facb_	C2	2
 d2fg7e2	C2	2
-d2ga0e_	C2	2
 d2gkpa1	C2	2
-d2gscb_	C2	2
 d2h5nc_	C2	2
 d2h6ua_	C2	2
 d2hiyc_	C2	2
@@ -889,14 +877,11 @@ d2hnwb_	C2	2
 d2i2uc2	C2	2
 d2ii9a_	C2	2
 d2it9b_	C2	2
-d2j9wa_	C2	2
 d2jn4a1	C2	2
 d2o8ob_	C2	2
 d2oaud2	C2	2
 d2oeqa1	C2	2
-d2okua1	C2	2
 d2p0mb2	C2	2
-d2p61a1	C2	2
 d2p98a_	C2	2
 d2peba_	C2	2
 d2phcb2	C2	2
@@ -915,7 +900,6 @@ d3dxsx_	C2	2
 d3eyea_	C2	2
 d3ezea1	C2	2
 d3fz2i_	C2	2
-d3g50b_	C2	2
 d3hnym_	C2	2
 d3jzpa_	C2	2
 d3m31a_	C2	2
@@ -976,10 +960,26 @@ d1yrra2	C8	8
 d2gl5a1	C8	8
 d2htmc_	C8	8
 d3fjna_	C8	8
+d1ea8a_	D2	4
+d1oedd_	D2	4
+d1ug7a_	D2	4
+d1v74b_	D2	4
+d1v9va1	D2	4
+d1x91a_	D2	4
+d2ap3a1	D2	4
+d2fefc1	D2	4
+d2ga0e_	D2	4
+d2gscb_	D2	4
+d2j9wa_	D2	4
+d2p61a1	D2	4
+d3dbyh2	D2	4
+d3g50b_	D2	4
 d1q3gl_	D3	6
 d1jjua5	D4	8
 d1y0ga_	D4	8
 d1i78a_	D5	10
+d1bg1a1	H2	4
+d2okua1	H2	4
 d2bf0x_	H2	5
 d3ag1e_	H2	5
 d1l5ja1	H2	8
