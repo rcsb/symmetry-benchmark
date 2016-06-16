@@ -1,4 +1,4 @@
-Domain	Group	Order
+Domain	Group	Repeats
 d1ak0a_	C1	1
 d1a6jb_	C1	1
 d1ab8b_	C1	1
@@ -922,7 +922,6 @@ d1vkde_	C5	5
 d2h2na1	C5	5
 d2jaja_	C5	5
 d1k32f2	C6	6
-d1okca_	C6	6
 d1q7fa_	C6	6
 d1qlga_	C6	6
 d1uyox_	C6	6
@@ -974,6 +973,7 @@ d2j9wa_	D2	4
 d2p61a1	D2	4
 d3dbyh2	D2	4
 d3g50b_	D2	4
+d1okca_	D3	6
 d1q3gl_	D3	6
 d1jjua5	D4	8
 d1y0ga_	D4	8
