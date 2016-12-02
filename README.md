@@ -102,7 +102,8 @@ Designed Helical Repeats
 ------------------------
 
 > Brunette, T. J., Parmeggiani, F., Huang, P.-S., Bhabha, G., Ekiert, D. C.,
-> Tsutakawa, S. E., et al. (2015). Exploring the repeat protein universe
-> through computational protein design. Nature, 528(7583), 580–584.
+> Tsutakawa, S. E., Hura, G. L., Tainer, J. A., and Baker, D (2015).
+> Exploring the repeat protein universe through computational protein design.
+> Nature, 528(7583), 580–584.
 
 A set of 15 designed solenoid proteins with varying curvature and twist.
