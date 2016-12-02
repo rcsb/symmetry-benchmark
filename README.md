@@ -98,4 +98,11 @@ The Fischer benchmark consists of 68 pairs of proteins from related folds.
 While not directly related to symmetry, the list of proteins is provided here
 in machine-readable format for benchmarking structural comparison algorithms.
 
+Designed Helical Repeats
+------------------------
 
+> Brunette, T. J., Parmeggiani, F., Huang, P.-S., Bhabha, G., Ekiert, D. C.,
+> Tsutakawa, S. E., et al. (2015). Exploring the repeat protein universe
+> through computational protein design. Nature, 528(7583), 580–584.
+
+A set of 15 designed solenoid proteins with varying curvature and twist.
