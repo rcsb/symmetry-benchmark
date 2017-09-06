@@ -1,5 +1,3 @@
-# Benchmark of quaternary assemblies based on consensus quaternary structure
-# PDB annotations.
 pdbCode,stoich,mmsize_pdb1,mmsize_pisa,mmsize_eppic,agreement
 117e,A2,2,2,1,PISA
 1a7s,A,1,1,1,Both
