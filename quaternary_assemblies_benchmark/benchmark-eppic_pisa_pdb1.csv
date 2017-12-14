@@ -1,4 +1,4 @@
-pdbCode,stoichiometry,mmsize,pisa_mmsize,eppic_mmsize,agreement
+pdbCode,stoichiometry,pdb1_mmsize,pisa_mmsize,eppic_mmsize,agreement
 117e,A2,2,2,1,PISA
 1a7s,A,1,1,1,Both
 1a8h,A,1,1,1,Both
