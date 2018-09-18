@@ -23,7 +23,7 @@ The CE-Symm algorithm was originally benchmarked on a novel manually curated
 set of 1007 proteins. These are annoted with various types of structural
 repeats, primarily internal symmetry.
 
-The Myers-Turnbull benchmark is contained in file `domain_symm_benchmark.tsv`. The original file can be accessed from the symmetry-benchmark-1.0.0 tag, and can be used to exactly duplicate the results from the paper (together with the [CE-Symm 1.0.0 Release](https://github.com/rcsb/symmetry/releases)). Later releases reflect changes in the PDB (e.g. obsolete entries) or the discovery of mistakes in the manual curation (e.g. overlooked translational repeats).
+The Myers-Turnbull benchmark is contained in file `domain_symm_benchmark.tsv`. The original file can be accessed from the symmetry-benchmark-1.0.0 tag, and can be used to exactly duplicate the results from the paper (together with the [CE-Symm 1.0.0 Release](https://github.com/rcsb/symmetry/releases)). Later releases reflect changes in the PDB (e.g. obsolete entries) or the discovery of mistakes in the manual curation (e.g. overlooked translational repeats). The structures of all domains in PDB format are found in `domain_symm_benchmark.tgz`.
 
 Each line of the file consists of a SCOPe domain identifier (v. 2.01) and an annotation of the symmetry. Abbreviations used:
  - **C1**   Asymmetric
