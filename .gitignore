@@ -1,5 +1,14 @@
+
+# R
+.Rhistory
+.RData
+.Rplot
+
+# Java files
 .classpath
 .project
 .settings/
 target/
+
+# MacOS
 .DS_Store
