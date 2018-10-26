@@ -9,54 +9,34 @@ dataset = read.csv("repeatsdb-dataset.tsv", sep = "\t", stringsAsFactors = F)
 cesymm = read.csv("cesymm-rdb_allresults.tsv", sep = "\t", stringsAsFactors = F)
 names(cesymm) = c("id", "repeats_CESymm", "SymmGroup", "Reason")
 
-rdblite = read.csv("full_rdblite.txt", sep = "", header = F, stringsAsFactors = F) %>%
+cesymm = cesymm %>%
   mutate(
-    pdb = sub("_.*", "", V1),
-    chain = sub(".*_", "", V1),
-    id = paste(pdb,chain, sep = "."),
-    units_rdbl = str_count(V3, ","),
-    insertions_rdbl = str_count(V4, ",")
-  ) %>%
-  # Sometimes RepeatsDB-lite would produce two separate repeat regions
-  group_by(id) %>%
-  summarize(
-    units_rdbl = sum(units_rdbl),
-    insertions_rdbl = sum(insertions_rdbl)
+    id = sub("\\.", "", id)
   )
-  #select(id, repeats_RDBlite)
 
 # Include everything in a single data frame
-benmk.cesymm = merge(dataset, cesymm)
-benmk.all = merge(benmk.cesymm, rdblite, all.x = T)
-
-benmk = benmk.all %>%
+benmk = merge(dataset, cesymm) %>%
   mutate(
-    units_rdbl = ifelse(is.na(units_rdbl), 0, units_rdbl),
-    insertions_rdbl = ifelse(is.na(insertions_rdbl), 0, insertions_rdbl),
-    class = sub("\\..*", "", class),
-    rec_cesymm = ifelse(repeats_CESymm > 1, 1, 0),
-    rec_rdblite = ifelse(units_rdbl > 0, 1, 0)
+    class_top = sub("\\..*", "", class),
+    rec_cesymm = ifelse(repeats_CESymm > 1, 1, 0)
   ) %>%
   filter(
-    class == "III" | class == "IV"
+    class_top == "III" | class_top == "IV"
   )
 
 # Split the benchmark into solenoids and closed repeats
-benmk.solenoids = benmk %>% filter(class == "III")
-benmk.closed = benmk %>% filter(class == "IV")
+benmk.single = benmk %>% filter(rdb_regions == 1, ecod_domains == 1)
+benmk.solenoids = benmk.single %>% filter(class_top == "III")
+benmk.closed = benmk.single %>% filter(class_top == "IV")
 
 # Calculate benchmark statistics of CE-Symm
 cesymm.rec_all = sum(benmk$rec_cesymm) / nrow(benmk)
+cesymm.rec_single = sum(benmk.single$rec_cesymm) / nrow(benmk.single)
 cesymm.rec_solenoid = sum(benmk.solenoids$rec_cesymm) / nrow(benmk.solenoids)
 cesymm.rec_closed = sum(benmk.closed$rec_cesymm) / nrow(benmk.closed)
 
-# Calculate statistics of RepeatsDB-lite for comparison
-rdblite.rec_all = sum(benmk$rec_rdblite) / nrow(benmk)
-rdblite.rec_solenoid = sum(benmk.solenoids$rec_rdblite) / nrow(benmk.solenoids)
-rdblite.rec_closed = sum(benmk.closed$rec_rdblite) / nrow(benmk.closed)
-
 # Write benchmarking summary to file
-results = benmk %>% select(id, pdb, chain, class, repeats_CESymm, units_rdbl)
+results = benmk %>% select(id, pdb, chain, class, rdb_regions, ecod_domains, repeats_CESymm, SymmGroup)
 write.table(
   results,
   "repeatsdb-benchmark.tsv",
