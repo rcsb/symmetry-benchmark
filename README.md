@@ -14,14 +14,25 @@ Users may be interested in this project to:
 CE-Symm Benchmark (Myers-Turnbull 2014)
 =======================================
 
+Version 1.0:
+
 > Myers-Turnbull, D., Bliven, S. E., Rose, P. W., Aziz, Z. K., Youkharibache,
 > P., Bourne, P. E., & Prlić, A. (2014). Systematic Detection of Internal
 > Symmetry in Proteins Using CE-Symm. Journal of Molecular Biology, 426(11),
 > 2255–2268.
 
+Version 2.0:
+
+> Bliven, S.E., Lafita, A., Rose, P.W., Capitani, G., Prlic, A., Bourne, P.E.
+> (2018) Analyzing the symmetrical arrangement of structural repeats in
+> proteins with CE-Symm. Submitted. Biorxiv preprint:
+> https://doi.org/10.1101/297960
+
 The CE-Symm algorithm was originally benchmarked on a novel manually curated
 set of 1007 proteins. These are annoted with various types of structural
 repeats, primarily internal symmetry.
+
+All files are contained within directory `domain_symm_benchmark`.
 
 The Myers-Turnbull benchmark is contained in file `domain_symm_benchmark.tsv`. The original file can be accessed from the symmetry-benchmark-1.0.0 tag, and can be used to exactly duplicate the results from the paper (together with the [CE-Symm 1.0.0 Release](https://github.com/rcsb/symmetry/releases)). Later releases reflect changes in the PDB (e.g. obsolete entries) or the discovery of mistakes in the manual curation (e.g. overlooked translational repeats). The structures of all domains in PDB format are found in `domain_symm_benchmark.tgz`.
 
@@ -48,7 +59,8 @@ Many of the cases in the benchmark are difficult to classify or fall near the bo
 Changelog
 ---------
 
-- 1.0.0   Published benchmark (1007 structures)
+- 2.0.0   Updated annotations (same 1007 structures), used in Bliven 2018.
+- 1.0.0   Published benchmark (1007 structures), used in Myers-Turnbull 2014.
 
 Other Benchmarks
 ================
