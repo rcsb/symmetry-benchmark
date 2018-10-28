@@ -740,6 +740,7 @@ id	pdb	chain	class	rdb_regions	ecod_domains	repeats_CESymm	SymmGroup
 1tnzG	1tnz	G	III.3	1	1	7	H
 1tnzI	1tnz	I	III.3	1	1	1	C1
 1tnzK	1tnz	K	III.3	1	1	8	R
+1tp8E	1tp8	E	IV.10	1	-1	3	C3
 1tqjA	1tqj	A	IV.1	1	1	8	C8
 1tqjB	1tqj	B	IV.1	1	1	2	C2
 1tqjC	1tqj	C	IV.1	1	1	2	C2
@@ -764,6 +765,7 @@ id	pdb	chain	class	rdb_regions	ecod_domains	repeats_CESymm	SymmGroup
 1u83A	1u83	A	IV.1	1	1	8	C8
 1uaeA	1uae	A	IV.5	2	2	6	D3
 1ubsA	1ubs	A	IV.1	1	1	2	C2
+1ugwG	1ugw	G	IV.10	1	-1	3	C3
 1uklA	1ukl	A	III.3	2	1	18	R
 1un0A	1un0	A	III.3	1	1	10	H
 1un0B	1un0	B	III.3	1	1	10	H
@@ -1773,6 +1775,7 @@ id	pdb	chain	class	rdb_regions	ecod_domains	repeats_CESymm	SymmGroup
 3bg1E	3bg1	E	IV.4	1	1	6	C6
 3bg1H	3bg1	H	IV.4	1	1	6	C6
 3bjsB	3bjs	B	IV.1	1	2	1	C1
+3boiB	3boi	B	III.1	1	-1	1	C1
 3bsbA	3bsb	A	III.3	1	1	9	R
 3bsbB	3bsb	B	III.3	1	1	9	R
 3bsxA	3bsx	A	III.3	1	1	9	R
@@ -2188,6 +2191,7 @@ id	pdb	chain	class	rdb_regions	ecod_domains	repeats_CESymm	SymmGroup
 3nqgA	3nqg	A	IV.1	1	1	4	C4
 3nqgB	3nqg	B	IV.1	1	1	4	C4
 3nqmB	3nqm	B	IV.1	1	1	4	C4
+3ntnC	3ntn	C	III.1	1	-1	3	H
 3nvsA	3nvs	A	IV.5	1	2	6	D3
 3nvtA	3nvt	A	IV.1	1	2	1	C1
 3o53A	3o53	A	III.2	1	1	1	C1
@@ -3336,6 +3340,8 @@ id	pdb	chain	class	rdb_regions	ecod_domains	repeats_CESymm	SymmGroup
 4yw1B	4yw1	B	IV.4	1	2	6	C6
 4yw3A	4yw3	A	IV.4	1	2	1	C1
 4yxgA	4yxg	A	IV.1	1	1	2	C2
+4yxxA	4yxx	A	IV.6	1	-1	6	C6
+4yxzA	4yxz	A	IV.6	1	-1	1	C1
 4z05B	4z05	B	III.1	1	1	8	H
 4z0cA	4z0c	A	III.2	1	2	1	C1
 4z0cD	4z0c	D	III.2	1	2	1	C1
@@ -3373,6 +3379,7 @@ id	pdb	chain	class	rdb_regions	ecod_domains	repeats_CESymm	SymmGroup
 5a5tM	5a5t	M	III.3	1	3	1	C1
 5a5uI	5a5u	I	IV.4	1	1	7	C7
 5a6cA	5a6c	A	III.3	1	1	16	R
+5a7dL	5a7d	L	III.3	1	-1	1	C1
 5a9q0	5a9q	0	IV.4	1	1	7	C7
 5a9q1	5a9q	1	III.3	2	3	1	C1
 5a9q2	5a9q	2	IV.4	1	1	7	C7
@@ -3447,6 +3454,7 @@ id	pdb	chain	class	rdb_regions	ecod_domains	repeats_CESymm	SymmGroup
 5cmpC	5cmp	C	III.2	1	1	12	R
 5cmpD	5cmp	D	III.2	1	1	1	C1
 5cttA	5ctt	A	III.3	1	1	10	H
+5cwkA	5cwk	A	III.3	1	-1	8	H
 5cxbB	5cxb	B	IV.4	1	1	7	C7
 5cxcB	5cxc	B	IV.4	1	1	7	C7
 5d0qH	5d0q	H	III.3	1	1	1	C1

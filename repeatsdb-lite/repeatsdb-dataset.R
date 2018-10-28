@@ -55,7 +55,8 @@ ecod.domains = ecod %>%
   group_by(id) %>%
   summarise(ecod_domains = length(ecod_domain_id))
 
-dataset = merge(dataset.rdb, ecod.domains) %>%
+dataset = merge(dataset.rdb, ecod.domains, all.x = T) %>%
+  mutate(ecod_domains = ifelse(is.na(ecod_domains), -1, ecod_domains)) %>%
   select(id, pdb, chain, class, rdb_regions, ecod_domains)
 
 # Write the final dataset to a file

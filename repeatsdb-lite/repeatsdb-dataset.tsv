@@ -417,6 +417,7 @@ id	pdb	chain	class	rdb_regions	ecod_domains
 1m0zB	1m0z	B	III.1	1	1
 1m10B	1m10	B	III.2	1	1
 1m1eA	1m1e	A	III.3	1	1
+1m1jD	1m1j	D	II.2	1	-1
 1m1xA	1m1x	A	IV.4	2	4
 1m6bA	1m6b	A	III.2	4	4
 1m6bB	1m6b	B	III.2	4	4
@@ -804,6 +805,7 @@ id	pdb	chain	class	rdb_regions	ecod_domains
 1tnzG	1tnz	G	III.3	1	1
 1tnzI	1tnz	I	III.3	1	1
 1tnzK	1tnz	K	III.3	1	1
+1tp8E	1tp8	E	IV.10	1	-1
 1tqjA	1tqj	A	IV.1	1	1
 1tqjB	1tqj	B	IV.1	1	1
 1tqjC	1tqj	C	IV.1	1	1
@@ -828,6 +830,7 @@ id	pdb	chain	class	rdb_regions	ecod_domains
 1u83A	1u83	A	IV.1	1	1
 1uaeA	1uae	A	IV.5	2	2
 1ubsA	1ubs	A	IV.1	1	1
+1ugwG	1ugw	G	IV.10	1	-1
 1uklA	1ukl	A	III.3	2	1
 1un0A	1un0	A	III.3	1	1
 1un0B	1un0	B	III.3	1	1
@@ -1137,6 +1140,12 @@ id	pdb	chain	class	rdb_regions	ecod_domains
 2dznE	2dzn	E	III.3	1	1
 2dzoA	2dzo	A	III.3	1	1
 2dzoC	2dzo	C	III.3	1	1
+2e7sK	2e7s	K	II.2	1	-1
+2e7sL	2e7s	L	II.2	1	-1
+2e7sM	2e7s	M	II.2	1	-1
+2e7sN	2e7s	N	II.2	1	-1
+2e7sO	2e7s	O	II.2	1	-1
+2e7sS	2e7s	S	II.2	1	-1
 2e9wA	2e9w	A	V.5	1	5
 2e9wB	2e9w	B	V.5	1	5
 2ec8A	2ec8	A	V.4	1	5
@@ -1884,6 +1893,7 @@ id	pdb	chain	class	rdb_regions	ecod_domains
 3bg1E	3bg1	E	IV.4	1	1
 3bg1H	3bg1	H	IV.4	1	1
 3bjsB	3bjs	B	IV.1	1	2
+3boiB	3boi	B	III.1	1	-1
 3bpnC	3bpn	C	V.4	1	3
 3bsbA	3bsb	A	III.3	1	1
 3bsbB	3bsb	B	III.3	1	1
@@ -2313,6 +2323,7 @@ id	pdb	chain	class	rdb_regions	ecod_domains
 3nqgA	3nqg	A	IV.1	1	1
 3nqgB	3nqg	B	IV.1	1	1
 3nqmB	3nqm	B	IV.1	1	1
+3ntnC	3ntn	C	III.1	1	-1
 3nvsA	3nvs	A	IV.5	1	2
 3nvtA	3nvt	A	IV.1	1	2
 3o53A	3o53	A	III.2	1	1
@@ -3122,6 +3133,9 @@ id	pdb	chain	class	rdb_regions	ecod_domains
 4gtqA	4gtq	A	III.3	1	1
 4gtrA	4gtr	A	III.3	1	1
 4gyoB	4gyo	B	III.3	1	1
+4gyxA	4gyx	A	II.1	1	-1
+4gyxB	4gyx	B	II.1	1	-1
+4gyxC	4gyx	C	II.1	1	-1
 4h09E	4h09	E	III.2	1	1
 4h41B	4h41	B	IV.1	1	1
 4h5iB	4h5i	B	IV.4	1	1
@@ -3489,6 +3503,8 @@ id	pdb	chain	class	rdb_regions	ecod_domains
 4yw1B	4yw1	B	IV.4	1	2
 4yw3A	4yw3	A	IV.4	1	2
 4yxgA	4yxg	A	IV.1	1	1
+4yxxA	4yxx	A	IV.6	1	-1
+4yxzA	4yxz	A	IV.6	1	-1
 4z05B	4z05	B	III.1	1	1
 4z0cA	4z0c	A	III.2	1	2
 4z0cD	4z0c	D	III.2	1	2
@@ -3526,6 +3542,7 @@ id	pdb	chain	class	rdb_regions	ecod_domains
 5a5tM	5a5t	M	III.3	1	3
 5a5uI	5a5u	I	IV.4	1	1
 5a6cA	5a6c	A	III.3	1	1
+5a7dL	5a7d	L	III.3	1	-1
 5a9q0	5a9q	0	IV.4	1	1
 5a9q1	5a9q	1	III.3	2	3
 5a9q2	5a9q	2	IV.4	1	1
@@ -3600,6 +3617,7 @@ id	pdb	chain	class	rdb_regions	ecod_domains
 5cmpC	5cmp	C	III.2	1	1
 5cmpD	5cmp	D	III.2	1	1
 5cttA	5ctt	A	III.3	1	1
+5cwkA	5cwk	A	III.3	1	-1
 5cxbB	5cxb	B	IV.4	1	1
 5cxcB	5cxc	B	IV.4	1	1
 5d0qH	5d0q	H	III.3	1	1
