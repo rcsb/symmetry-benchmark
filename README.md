@@ -1,18 +1,16 @@
-symmetry-benchmark
-==================
+# Benchmarking protein symmetry
 
-This project was designed to benchmark results of CE-Symm, accompanying
-[symmetry](https://github.com/rcsb/symmetry). Please see that project for more
-general information.
+This project was designed to benchmark results of `CE-Symm`. 
+Please see this project (https://github.com/rcsb/symmetry) for more information about the `CE-Symm` tool.
 
 Users may be interested in this project to:
- - Benchmark alternative data sets using CE-Symm.
- - Reproduce the benchmarks in the CE-Symm paper.
- - Benchmark protein symmetry-detection algorithms other than CE-Symm.
+ - Benchmark alternative data sets using `CE-Symm`.
+ - Reproduce the benchmarks in the `CE-Symm` paper.
+ - Benchmark protein symmetry-detection algorithms other than `CE-Symm`.
 
 
-CE-Symm Benchmark (Myers-Turnbull 2014)
-=======================================
+## Internal symmetry dataset
+
 
 Version 1.0:
 
@@ -45,8 +43,7 @@ Each line of the file consists of a SCOPe domain identifier (v. 2.01) and an ann
  - **SH**   Superhelical repeats. Used for cases where multiple levels of helices are detectable. This is analogous to supercoiling in leucine zippers or DNA, but with a fundamental repeat of secondary structure elements rather than individual residues. The full superposition cannot be simply represented, as the orientation between adjacent repeats depends on their position in the higher-level helices. However, for some applications it may be sufficient to specify the axis of the top-level helix.
  - **R[x]** Translational repeats without higher structure or symmetry, x repeats. 
 
-Classification guidelines
--------------------------
+### Classification guidelines
 
 Many of the cases in the benchmark are difficult to classify or fall near the border of two categories. The following guidelines were used for difficult cases:
 
@@ -56,17 +53,18 @@ Many of the cases in the benchmark are difficult to classify or fall near the bo
  - The majority of the domain should be convered by repeats. The exact size and complexity of insertions should be evaluated on a case-by-case basis. Controversial cases with poor coverage are tagged #partial in the issues.
  - Alpha helical bundles are particularly tricky, since they tend to superimpose well despite kinks and inconsistencies. Most bundles were marked as symmetric if they could be aligned with consistent topology.
 
-Changelog
----------
+### Changelog
 
 - 2.0.0   Updated annotations (same 1007 structures), used in Bliven 2018.
 - 1.0.0   Published benchmark (1007 structures), used in Myers-Turnbull 2014.
 
-Other Benchmarks
-================
 
-Guerler folds
--------------
+## RepeatsDB-lite benchmark
+
+See [repeatsdb-lite](repeatsdb-lite) directory for more information.
+
+
+## Guerler folds
 
 > Guerler, A., Wang, C., & Knapp, E. W. (2009). Symmetric structures in the
 > universe of protein folds. Journal of Chemical Information and Modeling,
@@ -98,8 +96,7 @@ annotated with the expected type of symmetry.
 given in the filename.
 
 
-Fisher benchmark
-----------------
+## Fisher benchmark
 
 > Fischer, D., Elofsson, A., Rice, D., & Eisenberg, D. (1996). Assessing the
 > performance of fold recognition methods by means of a comprehensive
@@ -110,8 +107,7 @@ The Fischer benchmark consists of 68 pairs of proteins from related folds.
 While not directly related to symmetry, the list of proteins is provided here
 in machine-readable format for benchmarking structural comparison algorithms.
 
-Designed Helical Repeats
-------------------------
+## Designed Helical Repeats
 
 > Brunette, T. J., Parmeggiani, F., Huang, P.-S., Bhabha, G., Ekiert, D. C.,
 > Tsutakawa, S. E., Hura, G. L., Tainer, J. A., and Baker, D (2015).
