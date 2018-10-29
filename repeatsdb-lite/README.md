@@ -13,14 +13,16 @@ http://protein.bio.unipd.it/repeatsdb-lite/dataset
 http://prodata.swmed.edu/ecod/complete/distribution
 
 4. Extract reference dataset from RepeatsDB-lite
+```bash
 grep ">" full_reference.txt > full_reference_header.txt
+```
 
-4. Add ECOD and RepeatsDB annotations to the dataset of RepeatsDB-lite to one-domain.
+5. Add ECOD and RepeatsDB annotations to the dataset of RepeatsDB-lite to one-domain.
 ```R
 Rscript repeatsdb-dataset.R
 ```
 
-5. Merge the results from CE-Symm and RepeatsDB-lite and calculate performance metrics.
+6. Merge the results from CE-Symm and RepeatsDB-lite and calculate performance metrics.
 ```R
 Rscript repeatsdb-benchmark.R
 ```
